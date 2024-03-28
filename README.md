@@ -1,38 +1,41 @@
-# Web based Facial Authentication system
-This is a web based facial log in/ Sign up website which uses Facial recognition for user authentication.
 
-It uses flask **server** for running the keras neural network model. 
-The model runs on the server side and accepts requests from clients.
+## Facial Authentication System 
 
-Facial recognition is based on Facenet model.
 
-Team members:
-**[Susanta Biswas](https://github.com/susantabiswas)** and **[Aditya Singh](https://github.com/adibyte95)**
+## Project Description
 
-For running:
-1. first run
-python keras_server.py
-2. go to browser and type **localhost:5000** to access the site
-3. enjoy
+The web-based Facial Authentication System is a platform designed for user authentication using facial recognition technology. It allows users to log in or sign up by verifying their identity through facial features captured by a webcam. The system utilizes the Facenet model for facial recognition and runs on a Flask server, which hosts the Keras neural network model for processing facial data.
 
-Some screenshots:
-<br>
-### Homepage
-![Homepage](/images/1.jpg)
+## My Role
+As part of the team, my role involved collaborating with team members to design and implement the web-based system. I contributed to the development of the frontend interface, integration of the Facenet model with the Flask server, and testing the system's functionality.
 
-### Login page
-![Log in](/images/2.jpg)
+## Technologies Used
+Flask: for the server-side application
+Keras: for the neural network model implementation
+HTML/CSS/JavaScript: for the frontend interface
+Webcam API: for capturing facial images
+Facenet model: for facial recognition
 
-### Sign up page
-![Sign up](/images/3.jpg)
+## Key Features and Functionalities
 
-### Successful login
-![Dashboard](images/4.jpg)
+Facial Authentication: Users can log in or sign up by capturing their facial features through a webcam.
 
-#### References:
-- Code for Facenet model is based on the assignment from Convolutional Neural Networks Specialization by Deeplearning.ai on Coursera.<br>
-https://www.coursera.org/learn/convolutional-neural-networks/home/welcome 
-- Florian Schroff, Dmitry Kalenichenko, James Philbin (2015). [FaceNet: A Unified Embedding for Face Recognition and Clustering](https://arxiv.org/pdf/1503.03832.pdf)
-- Yaniv Taigman, Ming Yang, Marc'Aurelio Ranzato, Lior Wolf (2014). [DeepFace: Closing the gap to human-level performance in face verification](https://research.fb.com/wp-content/uploads/2016/11/deepface-closing-the-gap-to-human-level-performance-in-face-verification.pdf) 
-- The pretrained model used is inspired by Victor Sy Wang's implementation and was loaded using his code: https://github.com/iwantooxxoox/Keras-OpenFace.
-- A lot of inspiration from the official FaceNet github repository: https://github.com/davidsandberg/facenet 
+Secure Authentication: The system uses advanced facial recognition technology for secure user authentication.
+
+User Management: The system allows for the management of user accounts, including creation, deletion, and modification.
+
+Responsive Design: The frontend interface is designed to be responsive and user-friendly, ensuring a seamless user experience.
+
+Error Handling: The system includes error handling mechanisms to manage exceptions and provide informative feedback to users.
+
+Logging and Monitoring: The system logs user authentication activities for monitoring and audit purposes.
+
+## How To Run 
+
+first run python keras_server.py
+go to browser and type localhost:5000 to access the site
+
+
+
+
+
